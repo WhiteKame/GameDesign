@@ -20,7 +20,11 @@ MonoBehaviour:
   m_Registries:
   - m_Id: main
     m_Name: 
+<<<<<<< Updated upstream
     m_Url: https://packages.unity.cn
+=======
+    m_Url: https://packages.unity.com
+>>>>>>> Stashed changes
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
