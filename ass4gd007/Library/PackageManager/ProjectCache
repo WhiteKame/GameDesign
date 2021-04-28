@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637549396038345670
-    m_Hash: 1289630939
+      ticks: 637551747389999860
+    m_Hash: 4101599471
   m_LockFileStatus:
     m_FilePath: C:/Users/jiayu/Documents/GitHub/GameDesign/ass4gd007/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637549396082857370
+      ticks: 637552194575114283
     m_Hash: 919429424
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
