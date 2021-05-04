@@ -1,0 +1,374 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'zh' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Hans/UTS/31262/31262github/GameDesign/ass4gd007
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58808
+Successfully changed project path to: E:/Hans/UTS/31262/31262github/GameDesign/ass4gd007
+E:/Hans/UTS/31262/31262github/GameDesign/ass4gd007
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Hans/UTS/31262/31262github/GameDesign/ass4gd007/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     8114 MB
+    Driver:   22.20.16.4771
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003110 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1797 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2238.
+Total: 3.596300 ms (FindLiveObjects: 0.362900 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.885400 ms  DeleteObjects: 0.204500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tilemap/Level1/material/water_edge_4.asset
+  artifactKey: Guid(871e27dd00b9cf54a80abfb9a9af0491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_edge_4.asset using Guid(871e27dd00b9cf54a80abfb9a9af0491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f54e555db5e754bef2d17ed2a6b819c') in 0.086388 seconds
+  Import took 0.089565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_7.asset
+  artifactKey: Guid(deee809810e394249a4c273df872bd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_7.asset using Guid(deee809810e394249a4c273df872bd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddc300306e33bf06a9fb3f6e81a0f6f') in 0.005893 seconds
+  Import took 0.008965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Tilemap/Level1/material/grass_side_2.asset
+  artifactKey: Guid(e645e7d5e4094be40bf6233e6ba84e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_side_2.asset using Guid(e645e7d5e4094be40bf6233e6ba84e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d19132f1117ec2359b67c40f58359c') in 0.025355 seconds
+  Import took 0.028418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Tilemap/Level1/material/water_edge_1.asset
+  artifactKey: Guid(163b6c6fa774cb44a9e6fe6dbeb765cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_edge_1.asset using Guid(163b6c6fa774cb44a9e6fe6dbeb765cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea89dcb27f9868d44adeb940065b7c1') in 0.006242 seconds
+  Import took 0.009801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Tilemap/Level1/material/grass_edge_3.asset
+  artifactKey: Guid(cb4207cd1e5c70c47bb244291829189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_edge_3.asset using Guid(cb4207cd1e5c70c47bb244291829189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7469ac4312c6995e5938cbbc0f94eee') in 0.009020 seconds
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_5.asset
+  artifactKey: Guid(f65dd089e598f2246b2ae5b950a4a2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_5.asset using Guid(f65dd089e598f2246b2ae5b950a4a2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a2f9dc231de752042d7959a5d91047') in 0.008451 seconds
+  Import took 0.012232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Tilemap/Level1/material/water_edge_3.asset
+  artifactKey: Guid(93c9fe76a86f7e549b54e406186d2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_edge_3.asset using Guid(93c9fe76a86f7e549b54e406186d2291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4501f97e9b6c0a827c95dbb642a8fd40') in 0.007068 seconds
+  Import took 0.010824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/Tilemap/Level1/material/grass_side_4.asset
+  artifactKey: Guid(458c245bf8fb0e1438c4e1fe00dc892a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_side_4.asset using Guid(458c245bf8fb0e1438c4e1fe00dc892a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d0a71c5ab25dd61fdab9356de540c5') in 0.007025 seconds
+  Import took 0.010961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Tilemap/Level1/material/water4.asset
+  artifactKey: Guid(ea722899838e26543898f6ebfe63eea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water4.asset using Guid(ea722899838e26543898f6ebfe63eea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ace7e90c6885325be1e7bf29e07e316') in 0.007204 seconds
+  Import took 0.011272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Tilemap/Level1/material/water_corn_3.asset
+  artifactKey: Guid(737ceb8ee2901a6488bc793c1e46580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_corn_3.asset using Guid(737ceb8ee2901a6488bc793c1e46580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6078428e81105cb5b94bd7bca0a5a0e4') in 0.006782 seconds
+  Import took 0.010252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Tilemap/Level1/material/grass_edge_1.asset
+  artifactKey: Guid(2a756221e5ac6be45b63dff02e0beed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_edge_1.asset using Guid(2a756221e5ac6be45b63dff02e0beed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35940e5d9f69d94ba552610c281397a2') in 0.006855 seconds
+  Import took 0.010604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Tilemap/Level1/material/grass_side_1.asset
+  artifactKey: Guid(60bd94819a9a01949bfa93807bae25fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_side_1.asset using Guid(60bd94819a9a01949bfa93807bae25fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97008ad17ac1efd757efab7c8f60d762') in 0.007673 seconds
+  Import took 0.012714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Tilemap/Level1/material/grass_side_3.asset
+  artifactKey: Guid(663cdbb979bc31a469730fdca8c84f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_side_3.asset using Guid(663cdbb979bc31a469730fdca8c84f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565dc1cd2fce69b98921f9ba94bf8d35') in 0.008708 seconds
+  Import took 0.012097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Tilemap/Level1/material/grass_edge_4.asset
+  artifactKey: Guid(810aa02a33a051f4a8187a44a30ec6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_edge_4.asset using Guid(810aa02a33a051f4a8187a44a30ec6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04543d6a6854b22065e0e54c22b77594') in 0.007560 seconds
+  Import took 0.010916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Tilemap/Level1/material/water2.asset
+  artifactKey: Guid(800351516dc16c544a5507d13a3f934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water2.asset using Guid(800351516dc16c544a5507d13a3f934e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64647c4887c9573551b87d9c3bce4f0f') in 0.006308 seconds
+  Import took 0.009448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Tilemap/Level1/material/water_corn_1.asset
+  artifactKey: Guid(07ddebbd781669e468192294ab77aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_corn_1.asset using Guid(07ddebbd781669e468192294ab77aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbec31ef1538fd6b860c1760793b7b06') in 0.009405 seconds
+  Import took 0.013206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Tilemap/Level1/material/water5.asset
+  artifactKey: Guid(fccc188bb02b09844a2a3f4d8664164f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water5.asset using Guid(fccc188bb02b09844a2a3f4d8664164f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8e315841b37dcc22d8a5ba878bb60c') in 0.008751 seconds
+  Import took 0.012903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Tilemap/Level1/material/water1.asset
+  artifactKey: Guid(8807ea2600f01394e82e6dcdcfbac084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water1.asset using Guid(8807ea2600f01394e82e6dcdcfbac084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58de8c63ebc6baa50467d52a98a5ae8') in 0.006978 seconds
+  Import took 0.010784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_2.asset
+  artifactKey: Guid(b00ec0dfdc322ac42ab61c1a3a03eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_2.asset using Guid(b00ec0dfdc322ac42ab61c1a3a03eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70843342579a79c990db02f15e850e0a') in 0.007751 seconds
+  Import took 0.011869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Tilemap/Level1/material/grass_corn_2.asset
+  artifactKey: Guid(986d2c6c5e72ddc43a54e4fcf30663d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_corn_2.asset using Guid(986d2c6c5e72ddc43a54e4fcf30663d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d2c7728c439eb6f7d3c07d3f0dc081') in 0.008923 seconds
+  Import took 0.013296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_1.asset
+  artifactKey: Guid(3e7750ca52b4b894ab6fae6e115753f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_1.asset using Guid(3e7750ca52b4b894ab6fae6e115753f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cb1922c0a2d257ce1af39f4ea62739') in 0.007759 seconds
+  Import took 0.011770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Tilemap/Level1/material/water_corn_2.asset
+  artifactKey: Guid(1fd8dcf1d1465d0419c681aeb9e1f2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_corn_2.asset using Guid(1fd8dcf1d1465d0419c681aeb9e1f2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8841194b230583a903b202a6af0bed') in 0.010108 seconds
+  Import took 0.013198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Tilemap/Level1/material/grass_corn_4.asset
+  artifactKey: Guid(5b2688cad217c9f42bf1e54fc82b41d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_corn_4.asset using Guid(5b2688cad217c9f42bf1e54fc82b41d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bfa47350f6ee471c6b153348a1d01d') in 0.006687 seconds
+  Import took 0.010069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Tilemap/Level1/material/grass_edge_2.asset
+  artifactKey: Guid(cfa38d424ee30f94795c0e676022d7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_edge_2.asset using Guid(cfa38d424ee30f94795c0e676022d7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a83ac92b8c0f75fb225a3e5b2ec606b') in 0.006838 seconds
+  Import took 0.010592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_3.asset
+  artifactKey: Guid(e6e6ef2b8e1d35e4a8ff2b2b9d6f8afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_3.asset using Guid(e6e6ef2b8e1d35e4a8ff2b2b9d6f8afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cf0bb5eee5446e0705ba4608bacb6d') in 0.010781 seconds
+  Import took 0.013832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_6.asset
+  artifactKey: Guid(610a476daa88aca4f996669bf911b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_6.asset using Guid(610a476daa88aca4f996669bf911b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b52fe6a370e922c7b33b0f19df0b06b') in 0.007244 seconds
+  Import took 0.012063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_2.asset
+  artifactKey: Guid(620e4342b34ea7243b40647724939661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_2.asset using Guid(620e4342b34ea7243b40647724939661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ec62b46a5b15e854ecc70a740fd895') in 0.008947 seconds
+  Import took 0.012343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Tilemap/Level1/material/water3.asset
+  artifactKey: Guid(058c3eae9d14ae34d91557aabf81cf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water3.asset using Guid(058c3eae9d14ae34d91557aabf81cf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3465c59d024fdc28bb7ebba9d0be30f8') in 0.006197 seconds
+  Import took 0.010324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Tilemap/Level1/material/water_corn_4.asset
+  artifactKey: Guid(8e8bbeafd7664a1428efc2c5c567bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_corn_4.asset using Guid(8e8bbeafd7664a1428efc2c5c567bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c07a821b9553bbc915c166b28c7a18') in 0.010506 seconds
+  Import took 0.013668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Tilemap/Level1/material/grass.asset
+  artifactKey: Guid(545e2fdef8ccf3c4bb9046c47fb1dcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass.asset using Guid(545e2fdef8ccf3c4bb9046c47fb1dcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5868bef2e4bb293783ed7007b75ec0df') in 0.005989 seconds
+  Import took 0.009570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_1.asset
+  artifactKey: Guid(b77561c45f6a6c944b6b3b189b092c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_1.asset using Guid(b77561c45f6a6c944b6b3b189b092c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2d40728b37018c4ecba7225f023800') in 0.006626 seconds
+  Import took 0.010513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Tilemap/Level1/material/png
+  artifactKey: Guid(03d031e6ce58ef041ad5fa0802bda5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/png using Guid(03d031e6ce58ef041ad5fa0802bda5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5dfecaceae8970064acd45026c2566') in 0.002649 seconds
+  Import took 0.006085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Tilemap/Level1/material/grass_corn_3.asset
+  artifactKey: Guid(6f8c2d444fd519741b352d315d6a04a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_corn_3.asset using Guid(6f8c2d444fd519741b352d315d6a04a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c722644b15274da20308c1d197061e') in 0.007752 seconds
+  Import took 0.011154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_4.asset
+  artifactKey: Guid(233a7c1d24f021b43804f443b8c6049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_4.asset using Guid(233a7c1d24f021b43804f443b8c6049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8520843cccd06a55eb6f41e0532398') in 0.005941 seconds
+  Import took 0.010072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Tilemap/Level1/material/water_edge_2.asset
+  artifactKey: Guid(bcb7a36a37c99d1458dec396d11a076d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/water_edge_2.asset using Guid(bcb7a36a37c99d1458dec396d11a076d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2edb446d87a4607aa5dac77b6940937') in 0.008880 seconds
+  Import took 0.011947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Tilemap/Level1/material/grass_both_corn_8.asset
+  artifactKey: Guid(54ccb1e8ed596c644804af902b7643ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_both_corn_8.asset using Guid(54ccb1e8ed596c644804af902b7643ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebc09d0920e76c9c2df6fa06ae3403e') in 0.007473 seconds
+  Import took 0.011168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Tilemap/Level1/material/grass_corn_1.asset
+  artifactKey: Guid(b688b5b857cf67e40aab5495f9a6cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/Level1/material/grass_corn_1.asset using Guid(b688b5b857cf67e40aab5495f9a6cf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437e8f40686f5fbc8c73b8db7d7c2b91') in 0.006198 seconds
+  Import took 0.010157 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
