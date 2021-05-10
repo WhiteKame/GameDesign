@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\move.cs" />
+     <Compile Include="Assets\Redbutton.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/u/2020.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
