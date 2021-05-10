@@ -15,11 +15,11 @@ E:/Hans/UTS/31262/31262github/GameDesign/ass4gd007
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51400
+64080
 Successfully changed project path to: E:/Hans/UTS/31262/31262github/GameDesign/ass4gd007
 E:/Hans/UTS/31262/31262github/GameDesign/ass4gd007
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 41.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,180 +35,220 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002940 seconds.
+Registered in 0.003024 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.587 seconds
+- Completed reload, in  1.588 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000823 seconds.
+Registered in 0.000891 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.85 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
+- Completed reload, in  1.138 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.7 MB.
 System memory in use after: 96.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2254.
-Total: 5.073500 ms (FindLiveObjects: 0.363200 ms CreateObjectMapping: 0.159100 ms MarkObjects: 4.252700 ms  DeleteObjects: 0.296600 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 4.900600 ms (FindLiveObjects: 0.452300 ms CreateObjectMapping: 0.159000 ms MarkObjects: 3.990800 ms  DeleteObjects: 0.296200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(b443d563a0790134f98d1bc5d52b25ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(b443d563a0790134f98d1bc5d52b25ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca90e907c7253c45c19a9817f46d99b') in 0.008480 seconds
-  Import took 0.014023 seconds .
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(47a5c896cd9098942b5687490b8abdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(47a5c896cd9098942b5687490b8abdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f610d3186074c909acce43923141df') in 0.069131 seconds
+  Import took 0.075276 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 19.481959 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f0.png
-  artifactKey: Guid(f2af0957b33404136a8492b4a84f31df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f0.png using Guid(f2af0957b33404136a8492b4a84f31df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b12640d4b58205f03a025a61d559a9e') in 0.189799 seconds
-  Import took 0.194379 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 4.120400 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.136000 ms MarkObjects: 3.413300 ms  DeleteObjects: 0.196400 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f1.png
-  artifactKey: Guid(210a3285a9a9e48909980dada5ff908c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f1.png using Guid(210a3285a9a9e48909980dada5ff908c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1845b376677ca93f8968a6ad68352f38') in 0.010962 seconds
-  Import took 0.014473 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 4.087200 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.138300 ms MarkObjects: 3.405000 ms  DeleteObjects: 0.199900 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f3.png
-  artifactKey: Guid(7c25e0cce2bfe4a99bb72ba651f8b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f3.png using Guid(7c25e0cce2bfe4a99bb72ba651f8b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c4bbea58370638d861a1ebb2256541') in 0.010924 seconds
-  Import took 0.015418 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001066 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 3.903200 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.163300 ms MarkObjects: 3.158700 ms  DeleteObjects: 0.224700 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000579 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f1.png
-  artifactKey: Guid(5c68c32ea33994c5da26c68e9cb36c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f1.png using Guid(5c68c32ea33994c5da26c68e9cb36c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b74c3be4e39f2dd8e13818c50a9359') in 0.011401 seconds
-  Import took 0.015843 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 4.028900 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.155400 ms MarkObjects: 3.284100 ms  DeleteObjects: 0.184400 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f2.png
-  artifactKey: Guid(5847df02187744f73b098d685b061202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f2.png using Guid(5847df02187744f73b098d685b061202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9191587bbadab6257e49e3c7d6b8640e') in 0.011450 seconds
-  Import took 0.015330 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
+Total: 3.891800 ms (FindLiveObjects: 0.405100 ms CreateObjectMapping: 0.137300 ms MarkObjects: 3.156300 ms  DeleteObjects: 0.190800 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f3.png
-  artifactKey: Guid(ea3c6fabf828f4a3a82e3ac5f6699f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f3.png using Guid(ea3c6fabf828f4a3a82e3ac5f6699f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33150ac4c6b3576bf424827b1c25f240') in 0.010458 seconds
-  Import took 0.014274 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 5.283600 ms (FindLiveObjects: 0.504400 ms CreateObjectMapping: 0.169200 ms MarkObjects: 4.348200 ms  DeleteObjects: 0.259300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f2.png
-  artifactKey: Guid(a16a262b646a54dbdaf3689d7ba64163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f2.png using Guid(a16a262b646a54dbdaf3689d7ba64163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cade6233fc3f9d6e0e7c771f5c87ecc') in 0.014002 seconds
-  Import took 0.018418 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000850 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1795 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.7 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f2.png
-  artifactKey: Guid(93d5b6db1aeeb406da90706a0f15edfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f2.png using Guid(93d5b6db1aeeb406da90706a0f15edfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7ea52bc11f6fe5e1ba917af2b8d603') in 0.011614 seconds
-  Import took 0.016407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f1.png
-  artifactKey: Guid(41f54116d2b3840c0814418bbe856535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f1.png using Guid(41f54116d2b3840c0814418bbe856535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492b7395fb12015309335cbeb45bad41') in 0.010029 seconds
-  Import took 0.014041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f0.png
-  artifactKey: Guid(62dd81e49bb3340ea978f715e61c37fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f0.png using Guid(62dd81e49bb3340ea978f715e61c37fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d01bff22ee58d4dadc35a7ce1a0512') in 0.010794 seconds
-  Import took 0.015228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f0.png
-  artifactKey: Guid(8828b71dd3dcc4cb8b819dd2b676cfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_run_anim_f0.png using Guid(8828b71dd3dcc4cb8b819dd2b676cfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83213c7c52749dbbcfd2f44add3298c5') in 0.012883 seconds
-  Import took 0.017623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f2.png
-  artifactKey: Guid(7f04b4ca465a14e8192977f314a2d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f2.png using Guid(7f04b4ca465a14e8192977f314a2d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7778c464d7c4d3ef27e2870b038adcfc') in 0.009839 seconds
-  Import took 0.013539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f3.png
-  artifactKey: Guid(1b6c4deff57804a32b8b973562a1b110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f3.png using Guid(1b6c4deff57804a32b8b973562a1b110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46621fd9751198e1f79b21fbf73468c') in 0.010136 seconds
-  Import took 0.013629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f0.png
-  artifactKey: Guid(9b9a21dc265454cd4882bcf80246c11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_zombie_idle_anim_f0.png using Guid(9b9a21dc265454cd4882bcf80246c11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9aa6bbbba1fd35381db3108e00ad40f') in 0.013120 seconds
-  Import took 0.016909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f3.png
-  artifactKey: Guid(7dc30f01a243f4c8ea2bc16313056c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_run_anim_f3.png using Guid(7dc30f01a243f4c8ea2bc16313056c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0e101285152f019dcddb61a62669a0') in 0.010674 seconds
-  Import took 0.013966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f1.png
-  artifactKey: Guid(aa24134822ae0432b93ea2b533f988d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite/Pixel_Character Pack/big_demon_idle_anim_f1.png using Guid(aa24134822ae0432b93ea2b533f988d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd69dc77cc2a00928a776ec4f72c780c') in 0.011348 seconds
-  Import took 0.014749 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 4.821600 ms (FindLiveObjects: 0.430300 ms CreateObjectMapping: 0.185900 ms MarkObjects: 4.017000 ms  DeleteObjects: 0.185900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
