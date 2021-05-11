@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    public float speed = 2;
-
+    //public float speed = 2;
+    private float speed;
+    public float walkspeed = 3f;
+    public float rushspeed = 6f;
     private Rigidbody2D rb2d;
     private Animator anim;
     private SpriteRenderer spRenderer;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +37,7 @@ public class PlayerControl : MonoBehaviour
 
         anim.SetFloat("Speed", Mathf.Abs((velx + vely) * speed));
 
-        if(x < 0)
+        if (x < 0)
         {
             spRenderer.flipX = true;
         }
@@ -41,5 +45,17 @@ public class PlayerControl : MonoBehaviour
         {
             spRenderer.flipX = false;
         }
+
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = rushspeed;
+
+        }
+        else
+        {
+            speed = walkspeed;
+        }
+
+
     }
 }
